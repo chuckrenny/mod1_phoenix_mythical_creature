@@ -4,7 +4,7 @@ require './lib/pharaoh'
 
 RSpec.describe Pharaoh do
   describe "The Pharaohs & the Phoenix throughout Ancient Egypt" do
-    xit "a pharaoh has a name, reputation, dynastic period, and the phoenix" do
+    it "a pharaoh has a name, reputation, dynastic period, and the phoenix" do
       phoenix = Phoenix.new("Bennu")
       narmer = Pharaoh.new("Narmer", "The Unifier", "3100 BCE", phoenix)
 
